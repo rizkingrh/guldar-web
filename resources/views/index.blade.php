@@ -37,6 +37,9 @@
                     </ul>
                     <ul class="navbar-nav mt-2 mt-lg-0">
                         @auth
+                            <li class="nav-item mr-2 mb-3 mb-lg-0">
+                                <a class="btn btn-secondary" href="/dashboard">Dashboard</a>
+                            </li>
                             <li>
                                 <form action="{{ route('logout') }}" method="POST">
                                     @csrf
