@@ -71,3 +71,27 @@
     </div>
 </main>
 @endsection
+
+<style>
+    body {
+        background-color: #fff8f8;
+    }
+    .page-header {
+        background-color: #ffe3e1;
+        padding: 1.5rem;
+        text-align: center;
+        border-radius: 12px;
+        margin-bottom: 2rem;
+    }
+    .page-header h2 {
+        color: #ff6f61;
+        font-weight: bold;
+    }
+    .page-header h5 {
+        color: #ff3d32;
+    }
+    footer {
+        font-size: 0.9rem;
+        color: #333;
+    }
+</style>
